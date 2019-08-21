@@ -47,4 +47,15 @@ rect(0, 0, 80, 80); // Hình chữ nhật với 2 giá trị đầu là tâm, gi
 square(30, 20, 55); // Hinhf vuông
 triangle(30, 75, 58, 20, 100, 100); // Hình tam giác với mỗi cạp là tọa độ của các đỉnh tam giác
 
+function setup() {
+	createCanvas(800, 800);
+}
+
+function draw() {
+  ellipse(100, 100, 80, 80);
+  rect(0, 0, 80, 80);
+  triangle(30, 75, 58, 20, 100, 100);
+}
 ```
+[Draw shapes pull](https://github.com/khacthe/canvas-animation/pull/1)
+
