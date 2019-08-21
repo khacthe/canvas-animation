@@ -103,3 +103,4 @@ function mousePressed() { // mỗi lần click chuột thì quá trình loop x�
   redraw();
 }
 ```
+[Loop , no loop, redraw pull ](https://github.com/khacthe/canvas-animation/pull/2)
