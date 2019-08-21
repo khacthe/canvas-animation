@@ -60,4 +60,46 @@ function draw() {
 [Draw shapes pull](https://github.com/khacthe/canvas-animation/pull/1)
 [Function list draw shapes 2D](https://p5js.org/reference/#group-Shape)
 
+- Loop and Redraw
+  + Quá trình trong hàm draw sẽ được loop
+```
+// example
+let y = 100;
+function setup() {
+  createCanvas(720, 400);
+  stroke(255); set màu
+  frameRate(30); // animation delay
+}
 
+function draw() {
+  background(0);
+   y = y - 1;
+   if (y < 0) {
+     y = height;
+   }
+   line(0, y, width, y); vẽ line
+}
+
+ở trên quá trình vè đường line sẽ liên tục -> ta cảm nhận nó di chuyển từ dưới lên trên
+
+view: http://localhost:5555/loop_in_p5/
+
+```
+  + Để ngăn quá trình draw loop tacos thể sử dụng hàm noLoop();
+
+```
+// add thêm function
+
+function setup() {
+  createCanvas(720, 400);
+  stroke(255); set màu
+  noLoop(); // set no loop
+  frameRate(30); // animation delay
+}
+```
++ nếu bạn muốn thay đổi quá trình đó có thể sử dụng sự kiện với hàm redraw
+```
+function mousePressed() { // mỗi lần click chuột thì quá trình loop xảy ra
+  redraw();
+}
+```
