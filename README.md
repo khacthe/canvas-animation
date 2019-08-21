@@ -1,4 +1,5 @@
 # Craw canvas 2D, 3D, Animation with P5 library
+Thư viện p5.js là một thư viện và tập hợp các công cụ giúp dễ sử dụng ngôn ngữ lập trình JavaScript cho mã hóa sáng tạo. Nó dựa trên Processing, một môi trường mã hóa sáng tạo ban đầu được phát triển bởi Ben Fry và Casey Reas. Một trong những mục tiêu chính của Processing (và các dự án dựa trên Processing) là làm cho nó dễ dàng nhất có thể tiếp cận với sáng tạo trên nền đồ họa, các hiệu ứng animation hay game basic trên nền web.
 
 ## Add library
 - Quản lý thư viên với npm
