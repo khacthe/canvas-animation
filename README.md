@@ -58,4 +58,6 @@ function draw() {
 }
 ```
 [Draw shapes pull](https://github.com/khacthe/canvas-animation/pull/1)
+[Function list draw shapes 2D](https://p5js.org/reference/#group-Shape)
+
 
